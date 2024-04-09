@@ -1,5 +1,7 @@
 let a = 10;
 let b = 100;
-[a,b]=[b,a];
+let pz= a;
+a=b;
+b=pz;
 console.log (a);
 console.log (b);
